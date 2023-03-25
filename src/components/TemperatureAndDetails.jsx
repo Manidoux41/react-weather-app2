@@ -31,10 +31,24 @@ function TemperatureAndDetails() {
           </div>
           <div className="flex font-light text-sm items-center justify-center">
             <FiWind size={18} className="mr-1" />
-            Wind speed:
+            Wind:
             <span className="font-medium ml-1">11 km/h</span>
           </div>
         </div>
+      </div>
+      <div className="flex flex-row items-center justify-center space-x-2 text-white text-sm py-3">
+        <BsSun />
+        <p className="font-light">Rise: <span className="font-medium ml-1">06:45 AM</span></p>
+        <p className="font-light">|</p>
+        <FiSunset />
+        <p className="font-light">Set: <span className="font-medium ml-1">07:35 PM</span></p>
+        <p className="font-light">|</p>
+        <AiOutlineArrowUp />
+        <p className="font-light">High: <span className="font-medium ml-1">45°</span></p>
+        <p className="font-light">|</p>
+        <AiOutlineArrowDown />
+        <p className="font-light">Low: <span className="font-medium ml-1">40°</span></p>
+        <p className="font-light">|</p>
       </div>
     </div>
   );
